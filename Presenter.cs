@@ -34,10 +34,11 @@ namespace HDO.Framework.WindowsForms.MVP
 
         private void View_OnViewCanceled(object sender, EventArgs e)
         {
-            if (IsValid())
-            {
+            //TODO : Is Ok?
+            //if (IsValid())
+            //{
                 OnViewCancelled();
-            }
+            //}
         }
 
         private void View_OnViewAccepted(object sender, EventArgs e)
