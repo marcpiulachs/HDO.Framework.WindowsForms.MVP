@@ -57,6 +57,8 @@ namespace HDO.Framework.WindowsForms.MVP
 
         Font Font { get; set; }
 
+        bool Focused { get; }
+
         bool Visible { get; set; }
     }
 
